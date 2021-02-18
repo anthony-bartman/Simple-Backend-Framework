@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wuz Gucci</title>
+    <style>
+        body {
+            background-color: #111
+        }
+
+        h1 {
+            font-size: 3cm;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 2mm green
+        }
+
+        h2 {
+            font-size: 1cm;
+            text-align: left;
+            color: white;
+            text-shadow: 0 0 2mm rgb(3, 118, 133)
+        }
+
+        a.button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+
+            text-decoration: none;
+            color: initial;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .flex-item+.flex-item {
+            margin: 35px 55px 45px 85px;
+        }
+
+        .button {
+            margin-top: 15px;
+            background-color: #0066FF;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Raspberry Pi Lab!</h1>
+    <div class="flex">
+        <h2> Author: Anthony Bartman</h2>
+    </div>
+    <div class="flex">
+        <b><a href="http://192.168.23.174:80/on" class="button" style="color: white;">Turn On Lights</a></b>
+        <b><a href="http://192.168.23.174:80/swap" class="button" style="color: white;">Swap Light Pattern</a></b>
+        <b><a href="http://192.168.23.174:80/hack" class="button" style="color: black;">Hack Rock...</a></b>
+    </div>
+</body>
+
+</html>
